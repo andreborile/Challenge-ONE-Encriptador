@@ -1,0 +1,105 @@
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imgLogo {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.title {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+body {
+    min-height: 100%;
+    background: #5F90A8;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.encrypter {
+    width: 940px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+.encrypter li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.textArea { 
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #0A3871;
+    font-weight: bold;
+}
+
+.textArea::placeholder{
+    color: #0A3871;
+    font-weight: bold;
+}    
+
+.buttonsField {
+    width: 830px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    margin: 2px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#myButton3 {
+    margin-left: 103px;
+    margin-right: 103px;
+}
+
+.aviso {
+    text-align: center;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: #CCCCCC;
+    font-weight: normal;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0A3871;
+}
