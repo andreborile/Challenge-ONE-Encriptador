@@ -1,12 +1,13 @@
-.caixa {
+.header {
     position: relative;
-    width: 940px;
     margin: 0 auto;
+    background: #87a3b1;
 }
 
 .imgLogo {
     padding-top: 50px;
     padding-left: 40px;
+    padding-bottom: 25px;
 }
 
 .title {
@@ -24,7 +25,6 @@ body {
 }
 
 .encrypter {
-    width: 940px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -56,7 +56,6 @@ body {
 }    
 
 .buttonsField {
-    width: 830px;
     margin: auto;
     margin-bottom: 5px;
 }
@@ -74,10 +73,13 @@ body {
     font-weight: bold;
     font-size: 18px;
 }
+.buttons:hover {
+    box-shadow: 5px 3px 5px #ccc;
+}
 
 #myButton3 {
-    margin-left: 103px;
-    margin-right: 103px;
+    margin-left: 250px;
+    margin-right: 100px;
 }
 
 .aviso {
@@ -91,11 +93,12 @@ body {
 }
 
 footer {
+    background: #87a3b1;
     position: fixed;
     bottom: 0;
     margin: auto;
     width: 100%;
-    padding-bottom: 30px;
+    padding: 20px;
     text-align: center;
 }
 
